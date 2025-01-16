@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Totem&#39;s combinations</title>
+  <meta http-equiv="refresh" content="0; url=https://habbianos.github.io/totem-combinations/"><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- MOVED TO https://github.com/Habbianos/totem-combinations -->
+
+<main>
+	<div>
+		<h3>Totem's combinations</h3>
+	</div>
+	<div>
+		<div id="settings">
+			<fieldset id="estilos">
+				<legend>Styles</legend>
+				<input type="checkbox" checked /><input type="button" onclick="gerador.changeStyle(-1, 0)" /><span></span><input type="button" onclick="gerador.changeStyle(1, 0)" /><br>
+				<input type="checkbox" checked /><input type="button" onclick="gerador.changeStyle(-1, 1)" /><span></span><input type="button" onclick="gerador.changeStyle(1, 1)" /><br>
+				<input type="checkbox" checked /><input type="button" onclick="gerador.changeStyle(-1, 2)" /><span></span><input type="button" onclick="gerador.changeStyle(1, 2)" />
+			</fieldset>
+			<fieldset id="luz">
+				<legend>Light</legend>
+				
+				<input type="radio" name="color" />
+				<input type="radio" name="color" /><br>
+				<input type="radio" name="color" />
+				<input type="radio" name="color" checked />
+			</fieldset>
+			<fieldset id="fundo">
+				<legend>Background</legend>
+				
+				<input type="radio" name="fundo" checked />
+				<input type="radio" name="fundo" />
+				<input type="radio" name="fundo" />
+				<input type="radio" name="fundo" />
+				<input type="radio" name="fundo" />
+				<input type="radio" name="fundo" />
+			</fieldset>
+			<fieldset id="especiais">
+				<legend>Specials</legend>
+				<input type="radio" name="espe" />
+				<input type="radio" name="espe" />
+				<input type="radio" name="espe" />
+				<input type="radio" name="espe" />
+			</fieldset>
+		</div>
+		<div id="preview">
+			
+		</div>
+	</div>
+</main>
+<!-- partial -->
+  <script src='https://codepen.io/Alynva/pen/NvjmWr.js'></script>
+<script src='https://codepen.io/Alynva/pen/ayypVp.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
